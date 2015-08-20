@@ -1,3 +1,4 @@
+delete buffer                            :bd <text>
 select                                   v                                     
 select row(s)                            SHIFT + v                             
 select blocks (columns)                  CTRL  + v                             
@@ -35,7 +36,11 @@ navigating split screens                 CTRL + w + j = move down a screen
                                          CTRL + w + h = move left a screen     
                                          CTRL + w + l = move right a screen    
 close all other split screens            :only                                 
+center text at cursor                    :zz
+move cursor line to top                  :zt
+move cursor line to bottom               :zb
 
+ 
 *  - As with other commands in vi, you can playback a macro any number of times.
      The following command would playback the macro assigned to the key `w' 100
      times: 100@w
