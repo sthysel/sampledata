@@ -1,3 +1,3 @@
-# Text Sampler
+# Sample data
 
-A sample of common text files good for testing vim and other text tools.
+A sample of common files good for testing vim and other text tools.
